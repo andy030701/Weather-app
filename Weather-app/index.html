@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="text" id="city-input" placeholder="Ville" />
+    <button class="see-button">Voir</button>
+    <div class="infos-container">
+      <!-- Container du nom de la ville-->
+      <div class="City-name-container">
+        <p>Rouen</p>
+      </div>
+      <!-- Container Temperature-->
+      <div class="temperature-container">
+        <img src="./assets/img/thermometre.png" alt="" srcset="" />
+        <p class="temperature-statement">47deg</p>
+      </div>
+
+      <!-- Container Pourcentage de l'eau-->
+      <div class="water-percent-container">
+        <img src="./assets/img/goutte-deau.png" alt="" srcset="" />
+        <p class="water-statement">40%</p>
+      </div>
+
+      <!--Container de la vitesse du vent-->
+      <div class="wind-speed-container">
+        <img src="./assets/img/vent.png" alt="" srcset="" />
+        <p class="wind-statement">4.6km/h</p>
+      </div>
+    </div>
+    <div class="meteo-title">
+      <img src="./assets/img/des-nuages.png" alt="" />
+      <p>Meteo</p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
